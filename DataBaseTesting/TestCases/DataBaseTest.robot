@@ -34,3 +34,7 @@ Verfy Data Insertion In Table
     Should Be Equal As Strings      ${output}   None
 
 
+Verify Data Update in Table
+    [documentation]     This test case verifies a user can update a table record
+    ${output}=    execute sql string        UPDATE Persons SET FirstName = "Kevin" WHERE City="Rio"
+    Should be Equal As Strings      ${output}   None
