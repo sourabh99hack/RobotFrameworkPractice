@@ -1,0 +1,15 @@
+keywords Syntax
+ 1. Connect to Database 
+        Syntax: connect to database     apimodulename    dbname    dbuser   dbpassword   dbhost   dbpassword
+        
+ 2. Disconnect from Database
+        Syntax: disconnect from database
+ 
+ 
+ 3. To execute the SQL String
+       Syntax: execute sql string     CREATE TABLE Persons (PersonID int, FirstName varchar(255), Address varchar(255), city varchar(255)) 
+       - execute sql string function will return a Value None if table sql exection is successful.
+       
+ 4. To execute the SQL Script 
+       Syntax: execute sql script    Path to the script file for ex: ./Resources/DB Files/xyz.sql
+       - execute sql string function will return a Value None if table sql exection is successful.
